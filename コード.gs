@@ -3,7 +3,7 @@ var webhook = "WEBHOOK-URL";
 
 var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("speed");
 var chart = sheet.getCharts()[0];
-var folderId = 'FOLDERID';  // Googleドライブの一時フォルダのID
+var folderId = 'FOLDER-ID';  // Googleドライブの一時フォルダのID
 var folder = DriveApp.getFolderById(folderId);  
 
 var today = Utilities.formatDate(new Date(), 'Asia/Tokyo', 'YYYY-MM-dd');

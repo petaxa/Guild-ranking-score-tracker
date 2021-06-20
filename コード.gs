@@ -1,7 +1,7 @@
-var webhook = "https://discord.com/api/webhooks/856217570285060107/0PJsKBBCUnxPJliOwP29Eyg_5mDVbZ61nbqkO2q1Shs7XP3JqVCqaPPDiFJ3oIZ3NKon" //second one
+// var webhook = "https://discord.com/api/webhooks/856217570285060107/0PJsKBBCUnxPJliOwP29Eyg_5mDVbZ61nbqkO2q1Shs7XP3JqVCqaPPDiFJ3oIZ3NKon" //second one
 // var webhook = "https://discord.com/api/webhooks/855838568286650379/lhvq1wSmrGPBfxV5AhPMxKPYsp2B-TiHUcG1ongm9gvL5v1N_SNvU-VXhm_umvO13Lxz";
 // test channel
-// var webhook = "https://discord.com/api/webhooks/855515617234518047/0IsLRINjFpji3dAK1VjqTmSVGfNAN3C8RPJh7w8yRbRiiizKB_2m28L4bW25DeUIiJhE";
+var webhook = "https://discord.com/api/webhooks/855515617234518047/0IsLRINjFpji3dAK1VjqTmSVGfNAN3C8RPJh7w8yRbRiiizKB_2m28L4bW25DeUIiJhE";
 
 var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("speed");
 var chart = sheet.getCharts()[0];

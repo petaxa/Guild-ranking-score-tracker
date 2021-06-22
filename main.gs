@@ -30,6 +30,11 @@ function sendMessage() {
        "title": "speed per minute",
        "description":sheet.getRange(lastRow, 1).getValue(),
        "color": 11730954,
+       "author":{
+         "name":"2021-6-16 累計ギルラン",
+         "icon_url":"ICON URL",
+         "url":"SHARE LINK"
+       },
        "image":{url:imgLink},
        
        "fields": [

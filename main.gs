@@ -13,12 +13,12 @@ var today = Utilities.formatDate(new Date(), 'Asia/Tokyo', 'YYYY-MM-dd');
 var lastRow = sheet.getLastRow();
 
 
-function sendMessage() {
+async function sendMessage() {
  var graphImg = chart.getBlob(); // グラフを画像に変換
  var file = folder.createFile(graphImg);
  file.setName(today);
  file.setSharing(DriveApp.Access.ANYONE,DriveApp.Permission.EDIT);
- var imgLink= file.getDownloadUrl();
+ var imgLink= await file.getDownloadUrl();
  console.log(imgLink);
  console.log(today);
  DriveApp.getFolderById(folderId).removeFile(file);
